@@ -1,3 +1,4 @@
+import Hero from '@/components/Hero'
 import MainLayout from '@/layouts/MainLayout'
 import Image from 'next/image'
 
@@ -5,7 +6,7 @@ export default function Home() {
   return (
     <>
       <MainLayout >
-
+        <Hero />
       </MainLayout>
     </>
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">

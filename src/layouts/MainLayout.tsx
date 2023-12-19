@@ -5,9 +5,12 @@ import Footer from "@/components/Footer";
 interface Props {
     children?: ReactNode;
     className?: string;
+    bgSrc?: string;
+    bgClass?: string;
 }
 
-const MainLayout: FC<Props> = ({ children, className }) => {
+const MainLayout: FC<Props> = ({ children, className, bgSrc,
+    bgClass, }) => {
     return (
         <div className="relative overflow-hidden">
             <Header />
@@ -21,6 +24,9 @@ const MainLayout: FC<Props> = ({ children, className }) => {
                 {children}
             </main>
             <Footer />
+            {bgSrc && (
+                <img src={bgSrc} className={bgClass} alt="nft image" />
+            )}
         </div>
     )
 }

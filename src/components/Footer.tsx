@@ -4,7 +4,7 @@ import { FC } from "react"
 import FooterLink from "./FooterLInk";
 import SocialLink from "./SocialLink";
 
-const Footer: FC = () => {
+const Footer: FC = () => { 
     return (
         <div className="w-full gap-[100px]">
             <div className="max-w-full">
