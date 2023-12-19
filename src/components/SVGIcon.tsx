@@ -90,3 +90,117 @@ export const InstagramIcon: FC = () => {
 
     )
 }
+
+export const HeroBack: FC = () => {
+    return (
+        <svg width="1439" height="1127" viewBox="0 0 1439 1127" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M139.334 0V1126.54" stroke="url(#paint0_linear_1_34)" stroke-width="0.36609" />
+            <path d="M268.086 0V1126.54" stroke="url(#paint1_linear_1_34)" stroke-width="0.36609" />
+            <path d="M396.842 0V1126.54" stroke="url(#paint2_linear_1_34)" stroke-width="0.36609" />
+            <path d="M525.549 0V1126.54" stroke="url(#paint3_linear_1_34)" stroke-width="0.36609" />
+            <path d="M654.305 0V1126.54" stroke="url(#paint4_linear_1_34)" stroke-width="2" />
+            <path d="M783.057 0V1126.54" stroke="url(#paint5_linear_1_34)" stroke-width="0.36609" />
+            <path d="M911.811 0V1126.54" stroke="url(#paint6_linear_1_34)" stroke-width="0.36609" />
+            <path d="M1040.61 0V1126.54" stroke="url(#paint7_linear_1_34)" stroke-width="0.36609" />
+            <path d="M1169.35 0V1126.54" stroke="url(#paint8_linear_1_34)" stroke-width="0.36609" />
+            <path d="M1298.11 0V1126.54" stroke="url(#paint9_linear_1_34)" stroke-width="0.36609" />
+            <path d="M-1.27734 815.088L1438.72 815.088" stroke="url(#paint10_linear_1_34)" stroke-width="0.36609" />
+            <path d="M-1.27734 714.362L1438.72 714.362" stroke="url(#paint11_linear_1_34)" stroke-width="2" />
+            <path d="M-1.27734 613.636L1438.72 613.636" stroke="url(#paint12_linear_1_34)" stroke-width="0.36609" />
+            <path d="M-1.27734 512.909L1438.72 512.909" stroke="url(#paint13_linear_1_34)" stroke-width="0.36609" />
+            <path d="M-1.27734 412.183L1438.72 412.183" stroke="url(#paint14_linear_1_34)" stroke-width="0.36609" />
+            <path d="M-1.27734 311.457L1438.72 311.457" stroke="url(#paint15_linear_1_34)" stroke-width="0.36609" />
+            <path d="M-1.27734 210.73L1438.72 210.73" stroke="url(#paint16_linear_1_34)" stroke-width="2" />
+            <path d="M-1.27734 110.004L1438.72 110.004" stroke="url(#paint17_linear_1_34)" stroke-width="2" />
+            <path d="M-1.27734 171.589H1438.72" stroke="#E4FC22" />
+            <defs>
+                <linearGradient id="paint0_linear_1_34" x1="139.834" y1="0" x2="139.834" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1_34" x1="268.586" y1="0" x2="268.586" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_1_34" x1="397.342" y1="0" x2="397.342" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint3_linear_1_34" x1="526.049" y1="0" x2="526.049" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint4_linear_1_34" x1="654.805" y1="0" x2="654.805" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.23222" stop-color="#E4FC22" stop-opacity="0.08" />
+                    <stop offset="0.312323" stop-color="#E4FC22" stop-opacity="0.580658" />
+                    <stop offset="0.422991" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint5_linear_1_34" x1="783.557" y1="0" x2="783.557" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint6_linear_1_34" x1="912.311" y1="0" x2="912.311" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint7_linear_1_34" x1="1041.11" y1="0" x2="1041.11" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint8_linear_1_34" x1="1169.85" y1="0" x2="1169.85" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint9_linear_1_34" x1="1298.61" y1="0" x2="1298.61" y2="1126.54" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint10_linear_1_34" x1="-1.27734" y1="814.588" x2="1438.72" y2="814.588" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint11_linear_1_34" x1="-1.27734" y1="713.862" x2="1438.72" y2="713.862" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.44294" stop-color="#E4FC22" stop-opacity="0" />
+                    <stop offset="0.541061" stop-color="#E4FC22" />
+                    <stop offset="0.642481" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint12_linear_1_34" x1="-1.27734" y1="613.136" x2="1438.72" y2="613.136" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint13_linear_1_34" x1="-1.27734" y1="512.409" x2="1438.72" y2="512.409" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint14_linear_1_34" x1="-1.27734" y1="411.683" x2="1438.72" y2="411.683" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint15_linear_1_34" x1="-1.27734" y1="310.957" x2="1438.72" y2="310.957" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint16_linear_1_34" x1="-1.27734" y1="210.23" x2="1438.72" y2="210.23" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.57157" stop-color="#E4FC22" stop-opacity="0" />
+                    <stop offset="0.671341" stop-color="#E4FC22" />
+                    <stop offset="0.749673" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="paint17_linear_1_34" x1="-1.27734" y1="109.504" x2="1438.72" y2="109.504" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.316107" stop-color="#E4FC22" stop-opacity="0" />
+                    <stop offset="0.388773" stop-color="#E4FC22" />
+                    <stop offset="0.446141" stop-color="#E4FC22" stop-opacity="0" />
+                    <stop offset="0.744792" stop-color="#E4FC22" stop-opacity="0" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const Underline: FC = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="59" height="3" viewBox="0 0 59 3" fill="none">
+            <path d="M0.859375 1.7832H58.8125" stroke="#E4FC22" stroke-width="2" />
+        </svg>
+    )
+}
