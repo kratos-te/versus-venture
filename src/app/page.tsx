@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero'
+import SelectPart from '@/components/SelectPart'
 import MainLayout from '@/layouts/MainLayout'
 import Image from 'next/image'
 
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <MainLayout >
         <Hero />
+        <SelectPart />
       </MainLayout>
     </>
   )

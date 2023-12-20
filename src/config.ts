@@ -5,6 +5,9 @@ import {
   LinkedinIcon,
   YoutubeIcon,
   InstagramIcon,
+  DecentralIcon,
+  ScaleIcon,
+  SecureIcon,
 } from "./components/SVGIcon";
 
 export const HEADER_LINK = [
@@ -72,6 +75,24 @@ export const SOCIAL_LINK = [
   {
     title: "instagram",
     icon: InstagramIcon,
+    link: "./",
+  },
+];
+
+export const SELECT_ICON = [
+  {
+    title: "Decentralized",
+    icon: DecentralIcon,
+    link: "./",
+  },
+  {
+    title: "Scalable",
+    icon: ScaleIcon,
+    link: "./",
+  },
+  {
+    title: "Secured",
+    icon: SecureIcon,
     link: "./",
   },
 ];

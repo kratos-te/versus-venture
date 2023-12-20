@@ -12,7 +12,7 @@ interface Props {
 const MainLayout: FC<Props> = ({ children, className, bgSrc,
     bgClass, }) => {
     return (
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden w-[1255px]">
             <Header />
             <main
                 className={`min-h-screen bg-dark-300 pb-[480px] ${className ? className : ""
