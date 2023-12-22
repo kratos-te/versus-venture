@@ -8,9 +8,9 @@ interface ButtonProps {
 }
 const Button: FC<ButtonProps> = ({ className, children }) => {
     return (
-        <button className={`rounded-[100px] ${className}`}>
+        <div className={`rounded-[100px] ${className}`}>
             {children}
-        </button>
+        </div>
     )
 }
 

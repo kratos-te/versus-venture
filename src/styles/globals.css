@@ -19,8 +19,22 @@
 body {
   background-color: black;
 }
-.gradient-text {
+.hero-text {
+  background: linear-gradient(93deg, #FFF 0%, #E4FC22 99.8%);
   background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(93deg, #FFF 0%, #E4FC22 99.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+.vision-text {
+  background: linear-gradient(90deg, #FFF 0%, #E4FC22 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.build-button {
+  background: linear-gradient(90deg, #e4fc22 0%, #f4feac 100%);
+}
+
+
