@@ -7,7 +7,7 @@ import MakeCard from "./MakeCard";
 const Impossible: FC = () => {
     return (
         <div className="flex flex-col gap-[82px]">
-            <div className="flex items-center text-[48px] vision-text font-bold">
+            <div className="flex items-center justify-center text-[48px] fragment-text font-bold">
                 The impossible
             </div>
             <div className="grid w-full gap-[25px]" style={{

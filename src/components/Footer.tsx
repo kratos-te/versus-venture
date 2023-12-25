@@ -6,10 +6,10 @@ import SocialLink from "./SocialLink";
 
 const Footer: FC = () => { 
     return (
-        <div className="w-full gap-[100px]">
-            <div className="max-w-full">
-                <div className=" flex-col px-24">
-                    <div className="flex justify-between items-center gap-[120px]  py-24 border-t-[1px] border-[#808080]">
+        <div className="gap-[100px] px-24 ">
+            <div className="flex flex-col max-w-[1440px] mx-auto border-t-[1px] border-[#808080]">
+
+                <div className="flex justify-between items-center py-24 ">
                         {FOOTER_LINK.map((item, key) => (
                             <FooterLink key={key} title={item.title} />
                         ))}
@@ -20,7 +20,6 @@ const Footer: FC = () => {
                             {SOCIAL_LINK.map((item, key) => (
                                 <SocialLink key={key} icon={<item.icon />} link={item.link} />
                             ))}
-                        </div>
                     </div>
                 </div>
             </div>

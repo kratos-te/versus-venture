@@ -12,7 +12,7 @@ const Header: FC = () => {
             <div className="flex items-center max-w-[1440px] justify-between mx-auto">
                 <div className="inline-flex items-center gap-6">
                     <Link href={"/"}>
-                        <Image src="/logo/logo.png" width={76} height={74} alt=""></Image>
+                        <Image src="/logo/logo.jpg" width={76} height={74} alt=""></Image>
                     </Link>
                 </div>
 

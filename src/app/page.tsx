@@ -1,4 +1,7 @@
 import Ability from '@/components/Ability'
+import Difference from '@/components/Difference'
+import Ecosystem from '@/components/Ecosystem'
+import Feature from '@/components/Feature'
 import Hero from '@/components/Hero'
 import SelectPart from '@/components/SelectPart'
 import Value from '@/components/Value'
@@ -15,6 +18,9 @@ export default function Home() {
         <Vision />
         <Value />
         <Ability />
+        <Difference />
+        <Feature />
+        <Ecosystem />
       </MainLayout>
     </>
   )

@@ -233,6 +233,14 @@ export const DarkArrow: FC = () => {
     )
 }
 
+export const WhiteArrow: FC = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="14" viewBox="0 0 29 14" fill="none">
+            <path d="M28.6855 7.56083C29.0157 7.2306 29.0157 6.69518 28.6855 6.36495L23.304 0.983458C22.9738 0.653223 22.4383 0.653223 22.1081 0.983458C21.7779 1.31369 21.7779 1.84911 22.1081 2.17934L26.8917 6.96289L22.1081 11.7464C21.7779 12.0767 21.7779 12.6121 22.1081 12.9423C22.4383 13.2726 22.9738 13.2726 23.304 12.9423L28.6855 7.56083ZM0.457031 7.80851H28.0875V6.11727H0.457031V7.80851Z" fill="white" />
+        </svg>
+    )
+}
+
 export const DecentralIcon: FC = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="82" height="81" viewBox="0 0 82 81" fill="none">
@@ -634,6 +642,221 @@ export const PermanentData: FC = () => {
                     <stop stop-color="white" />
                     <stop offset="1" stop-color="#F6FEB6" />
                 </radialGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const Sunrise: FC = () => {
+    return (
+        <svg width="400" height="380" viewBox="0 0 592 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_10_1313)">
+                <path d="M163.477 71.8063L270.617 106.342" stroke="#E4FC22" stroke-width="0.213529" />
+                <path d="M266.32 73.191L167.771 104.957" stroke="#E4FC22" stroke-width="0.213529" />
+                <path d="M186.117 59.1653L247.975 118.983" stroke="#E4FC22" stroke-width="0.213529" />
+                <path d="M245.496 61.5637L188.599 116.585" stroke="#E4FC22" stroke-width="0.213529" />
+            </g>
+            <g filter="url(#filter1_f_10_1313)">
+                <path d="M222.34 75.518L274.028 109.57L222.34 143.621L170.652 109.57L222.34 75.518Z" fill="#E4FC22" />
+            </g>
+            <g filter="url(#filter2_f_10_1313)">
+                <path d="M214.449 77.0589L240.301 89.0741L214.449 101.089L188.598 89.0741L214.449 77.0589Z" fill="#E4FC22" />
+            </g>
+            <g filter="url(#filter3_f_10_1313)">
+                <ellipse cx="273.584" cy="285.202" rx="200.795" ry="192.118" fill="#E4FC22" />
+            </g>
+            <ellipse cx="315" cy="336.935" rx="276.879" ry="264.914" fill="black" />
+            <g filter="url(#filter4_f_10_1313)">
+                <path d="M202.689 36.9082L212.82 86.2191" stroke="white" stroke-width="0.213529" />
+            </g>
+            <g filter="url(#filter5_f_10_1313)">
+                <ellipse cx="232.169" cy="172.296" rx="159.379" ry="81.5505" transform="rotate(-25.796 232.169 172.296)" fill="url(#paint0_linear_10_1313)" fill-opacity="0.4" />
+            </g>
+            <defs>
+                <filter id="filter0_f_10_1313" x="159.84" y="55.5738" width="114.415" height="67.0007" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="1.77941" result="effect1_foregroundBlur_10_1313" />
+                </filter>
+                <filter id="filter1_f_10_1313" x="129.66" y="34.5256" width="185.36" height="150.088" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="20.4962" result="effect1_foregroundBlur_10_1313" />
+                </filter>
+                <filter id="filter2_f_10_1313" x="176.3" y="64.7612" width="76.2985" height="48.6259" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="6.14885" result="effect1_foregroundBlur_10_1313" />
+                </filter>
+                <filter id="filter3_f_10_1313" x="0.60601" y="20.9013" width="545.956" height="528.602" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="36.0915" result="effect1_foregroundBlur_10_1313" />
+                </filter>
+                <filter id="filter4_f_10_1313" x="197.663" y="31.9705" width="20.1819" height="59.1862" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="2.45954" result="effect1_foregroundBlur_10_1313" />
+                </filter>
+                <filter id="filter5_f_10_1313" x="13.1362" y="0.117216" width="438.064" height="344.357" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="35.5881" result="effect1_foregroundBlur_10_1313" />
+                </filter>
+                <linearGradient id="paint0_linear_10_1313" x1="232.169" y1="90.7454" x2="232.169" y2="253.846" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="0.406996" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const ConceptIcon: FC = () => {
+    return (
+        <svg width="84" height="85" viewBox="0 0 84 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="41.981" cy="42.1484" rx="41.981" ry="42.1484" fill="url(#paint0_linear_5_71)" />
+            <path d="M57.1093 47.9475V34.1317L45.6418 27.6558M39.2201 27.6558L27.7527 34.1317V47.9475M30.5049 52.2654L42.431 59.0001L49.7701 54.8554L54.3571 52.2644M42.431 35.9738L45.1832 37.5856L47.9353 39.1975V45.6448L45.1832 47.2567L42.431 48.8685L39.6788 47.2567L36.9266 45.6448V39.1975L39.6788 37.5856L42.431 35.9738ZM42.431 35.9738V29.5264M47.9353 45.1843L54.3571 48.8685M36.9266 45.1843L30.5049 48.8685" stroke="url(#paint1_linear_5_71)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M42.4293 29.5263C43.9493 29.5263 45.1815 28.2892 45.1815 26.7632C45.1815 25.2371 43.9493 24 42.4293 24C40.9093 24 39.6771 25.2371 39.6771 26.7632C39.6771 28.2892 40.9093 29.5263 42.4293 29.5263Z" stroke="url(#paint2_linear_5_71)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M27.7522 53.4736C29.2722 53.4736 30.5044 52.2365 30.5044 50.7104C30.5044 49.1844 29.2722 47.9473 27.7522 47.9473C26.2322 47.9473 25 49.1844 25 50.7104C25 52.2365 26.2322 53.4736 27.7522 53.4736Z" stroke="url(#paint3_linear_5_71)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M57.1083 53.4736C58.6283 53.4736 59.8605 52.2365 59.8605 50.7104C59.8605 49.1844 58.6283 47.9473 57.1083 47.9473C55.5883 47.9473 54.3562 49.1844 54.3562 50.7104C54.3562 52.2365 55.5883 53.4736 57.1083 53.4736Z" stroke="url(#paint4_linear_5_71)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            <defs>
+                <linearGradient id="paint0_linear_5_71" x1="41.981" y1="0" x2="41.981" y2="84.2969" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_5_71" x1="42.431" y1="27.6558" x2="42.431" y2="59.0001" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_5_71" x1="42.4293" y1="24" x2="42.4293" y2="29.5263" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+                <linearGradient id="paint3_linear_5_71" x1="27.7522" y1="47.9473" x2="27.7522" y2="53.4736" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+                <linearGradient id="paint4_linear_5_71" x1="57.1083" y1="47.9473" x2="57.1083" y2="53.4736" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const FeatureIcon: FC = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85" fill="none">
+            <ellipse cx="42.9439" cy="42.2388" rx="41.981" ry="42.1484" fill="url(#paint0_linear_1501_3215)" />
+            <path d="M32.4849 44.4263H48.1723V40.0513H32.4849V44.4263ZM32.4849 37.8638H48.1723V33.4888H32.4849V37.8638ZM25.5127 59.7388V24.7388H60.3736V59.7388H25.5127ZM28.9988 55.3638H56.8875V29.1138H28.9988V55.3638Z" fill="url(#paint1_linear_1501_3215)" />
+            <defs>
+                <linearGradient id="paint0_linear_1501_3215" x1="42.9439" y1="0.090332" x2="42.9439" y2="84.3872" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1501_3215" x1="42.9432" y1="24.7388" x2="42.9432" y2="59.7388" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
+
+export const Freedom: FC = () => {
+    return (
+        <svg width="84" height="85" viewBox="0 0 84 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="41.981" cy="42.1484" rx="41.981" ry="42.1484" fill="url(#paint0_linear_3_47)" />
+            <path d="M27.9998 48.2387V57.7064C27.9998 58.163 28.1812 58.6008 28.504 58.9236C28.8268 59.2464 29.2647 59.4278 29.7212 59.4278H53.8208C54.2773 59.4278 54.7151 59.2464 55.038 58.9236C55.3608 58.6008 55.5422 58.163 55.5422 57.7064V48.2387" stroke="url(#paint1_linear_3_47)" stroke-width="3.44279" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M53.8208 33.6069H29.7212C29.2647 33.6069 28.8268 33.7883 28.504 34.1111C28.1812 34.4339 27.9998 34.8718 27.9998 35.3283V40.4925C27.9998 40.949 28.1812 41.3869 28.504 41.7097C28.8268 42.0325 29.2647 42.2139 29.7212 42.2139H53.8208C54.2773 42.2139 54.7151 42.0325 55.038 41.7097C55.3608 41.3869 55.5422 40.949 55.5422 40.4925V35.3283C55.5422 34.8718 55.3608 34.4339 55.038 34.1111C54.7151 33.7883 54.2773 33.6069 53.8208 33.6069Z" stroke="url(#paint2_linear_3_47)" stroke-width="3.44279" stroke-linejoin="round" />
+            <path d="M34.8854 24.9999V28.4427M41.771 24.9999V28.4427M48.6566 24.9999V28.4427M34.8854 50.8208H48.6566" stroke="url(#paint3_linear_3_47)" stroke-width="3.44279" stroke-linecap="round" stroke-linejoin="round" />
+            <defs>
+                <linearGradient id="paint0_linear_3_47" x1="41.981" y1="0" x2="41.981" y2="84.2969" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_3_47" x1="41.771" y1="48.2387" x2="41.771" y2="59.4278" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_3_47" x1="41.771" y1="33.6069" x2="41.771" y2="42.2139" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+                <linearGradient id="paint3_linear_3_47" x1="41.771" y1="24.9999" x2="41.771" y2="50.8208" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const UseCase: FC = () => {
+    return (
+        <svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="42.0982" cy="42.5361" rx="41.981" ry="42.1484" fill="url(#paint0_linear_1501_3226)" />
+            <path d="M39.9544 45.3936C41.2775 45.3936 42.5465 44.8659 43.4821 43.9265M39.9544 45.3936C38.6312 45.3936 37.3622 44.8659 36.4266 43.9265M39.9544 45.3936V49.1503M43.4821 43.9265C44.4177 42.9872 44.9433 41.7131 44.9433 40.3847M43.4821 43.9265L46.1271 46.582M44.9433 40.3847C44.9433 39.0563 44.4177 37.7822 43.4821 36.8429M44.9433 40.3847H48.6851M43.4821 36.8429C42.5465 35.9035 41.2775 35.3758 39.9544 35.3758M43.4821 36.8429L46.1271 34.1874M39.9544 35.3758C38.6312 35.3758 37.3622 35.9035 36.4266 36.8429M39.9544 35.3758V31.6191M36.4266 36.8429C35.491 37.7822 34.9654 39.0563 34.9654 40.3847M36.4266 36.8429L33.7817 34.1874M34.9654 40.3847C34.9654 41.7131 35.491 42.9872 36.4266 43.9265M34.9654 40.3847H31.2236M36.4266 43.9265L33.7817 46.582M39.1223 31.6191H40.7864M45.5399 33.5963L46.7158 34.7785M48.6851 39.5494V41.22M46.7158 45.9925L45.5399 47.1731M40.7864 49.1503H39.1223M34.3689 47.1731L33.1929 45.9925M31.2236 41.22V39.5494M33.1929 34.7769L34.3689 33.5963" stroke="url(#paint1_linear_1501_3226)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M59.5269 60.0361L50.7637 51.2379M39.9537 55.7335C48.3978 55.7335 55.2414 48.861 55.2414 40.3848C55.2414 31.907 48.3962 25.0361 39.9537 25.0361C31.5096 25.0361 24.666 31.9086 24.666 40.3848C24.666 48.8626 31.5112 55.7335 39.9537 55.7335Z" stroke="url(#paint2_linear_1501_3226)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <defs>
+                <linearGradient id="paint0_linear_1501_3226" x1="42.0982" y1="0.387695" x2="42.0982" y2="84.6846" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1501_3226" x1="39.9544" y1="31.6191" x2="39.9544" y2="49.1503" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_1501_3226" x1="42.0965" y1="25.0361" x2="42.0965" y2="60.0361" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const NftTech: FC = () => {
+    return (
+        <svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="42.9439" cy="42.5361" rx="41.981" ry="42.1484" fill="url(#paint0_linear_1501_3234)" />
+            <path d="M37.4388 42.5361C38.412 42.5361 39.3454 42.2009 40.0336 41.6042C40.7218 41.0075 41.1084 40.1982 41.1084 39.3543C41.1084 38.5104 40.7218 37.7011 40.0336 37.1044C39.3454 36.5077 38.412 36.1725 37.4388 36.1725C36.4656 36.1725 35.5322 36.5077 34.844 37.1044C34.1558 37.7011 33.7692 38.5104 33.7692 39.3543C33.7692 40.1982 34.1558 41.0075 34.844 41.6042C35.5322 42.2009 36.4656 42.5361 37.4388 42.5361ZM60.3736 33.7861L42.9432 25.0361L25.5127 33.7861V51.2861L42.9432 60.0361L60.3736 51.2861V33.7861ZM42.9432 28.7127L56.7041 35.6205V46.5659L48.3338 42.2132L33.7087 51.7236L29.1823 49.4518V35.6205L42.9432 28.7127ZM42.9432 56.3595L37.1599 53.4561L48.5613 46.0425L55.8967 49.8575L42.9432 56.3595Z" fill="url(#paint1_linear_1501_3234)" />
+            <defs>
+                <linearGradient id="paint0_linear_1501_3234" x1="42.9439" y1="0.387695" x2="42.9439" y2="84.6846" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1501_3234" x1="42.9432" y1="25.0361" x2="42.9432" y2="60.0361" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+    )
+}
+
+export const Shopping: FC = () => {
+    return (
+        <svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="42.5864" cy="42.5361" rx="41.981" ry="42.1484" fill="url(#paint0_linear_1501_3240)" />
+            <path d="M59.7882 31.996C59.6956 31.8844 59.5797 31.7947 59.4487 31.733C59.3177 31.6714 59.1748 31.6395 59.0301 31.6395H32.2262L31.3761 26.9346C31.2797 26.4018 31.0001 25.9198 30.586 25.5729C30.1718 25.2259 29.6495 25.0359 29.1101 25.0361H26.1419C25.8802 25.0361 25.6293 25.1405 25.4443 25.3262C25.2592 25.512 25.1553 25.7639 25.1553 26.0266C25.1553 26.2893 25.2592 26.5413 25.4443 26.727C25.6293 26.9128 25.8802 27.0171 26.1419 27.0171H29.1019C29.1797 27.0159 29.2555 27.0424 29.3158 27.0919C29.376 27.1415 29.4167 27.211 29.4307 27.2879L33.6256 50.4491C33.7587 51.1879 34.1173 51.8669 34.6517 52.3921C34.0063 52.9103 33.5244 53.6052 33.2642 54.3927C33.004 55.1801 32.9768 56.0264 33.1857 56.8291C33.3947 57.6318 33.8309 58.3565 34.4415 58.9156C35.0522 59.4746 35.8112 59.8439 36.6266 59.9789C37.442 60.1139 38.2789 60.0088 39.036 59.6762C39.7932 59.3437 40.4381 58.798 40.8927 58.1051C41.3473 57.4123 41.5922 56.602 41.5976 55.7724C41.6031 54.9427 41.369 54.1293 40.9235 53.4305H49.5106C48.9993 54.2337 48.7689 55.185 48.8558 56.1343C48.9426 57.0835 49.3418 57.9767 49.9903 58.673C50.6388 59.3694 51.4998 59.8291 52.4374 59.9798C53.375 60.1305 54.3359 59.9636 55.1686 59.5054C56.0012 59.0471 56.6582 58.3237 57.0359 57.4491C57.4137 56.5745 57.4906 55.5986 57.2547 54.6752C57.0188 53.7518 56.4834 52.9336 55.733 52.3495C54.9825 51.7654 54.0598 51.4488 53.1102 51.4495H37.1874C36.8023 51.4495 36.4294 51.3139 36.1337 51.0662C35.838 50.8185 35.6382 50.4745 35.5693 50.0941L34.9773 46.8271H54.4422C55.2894 46.8274 56.1099 46.529 56.7605 45.9842C57.4111 45.4393 57.8506 44.6825 58.0023 43.8457L60.0003 32.8066C60.0261 32.6641 60.0205 32.5177 59.9838 32.3777C59.9472 32.2376 59.8804 32.1074 59.7882 31.996ZM39.6261 55.7416C39.6261 56.1987 39.491 56.6456 39.2381 57.0256C38.9851 57.4057 38.6256 57.7019 38.2049 57.8769C37.7842 58.0518 37.3213 58.0976 36.8748 58.0084C36.4282 57.9192 36.018 57.6991 35.696 57.3759C35.374 57.0526 35.1548 56.6408 35.066 56.1925C34.9771 55.7442 35.0227 55.2795 35.197 54.8572C35.3712 54.4349 35.6663 54.0739 36.0449 53.82C36.4235 53.566 36.8686 53.4305 37.3239 53.4305C37.9345 53.4305 38.52 53.674 38.9518 54.1074C39.3835 54.5408 39.6261 55.1287 39.6261 55.7416ZM55.4124 55.7416C55.4124 56.1987 55.2774 56.6456 55.0244 57.0256C54.7714 57.4057 54.4119 57.7019 53.9912 57.8769C53.5706 58.0518 53.1077 58.0976 52.6611 58.0084C52.2145 57.9192 51.8043 57.6991 51.4823 57.3759C51.1604 57.0526 50.9411 56.6408 50.8523 56.1925C50.7634 55.7442 50.809 55.2795 50.9833 54.8572C51.1575 54.4349 51.4526 54.0739 51.8312 53.82C52.2098 53.566 52.6549 53.4305 53.1102 53.4305C53.7208 53.4305 54.3064 53.674 54.7381 54.1074C55.1698 54.5408 55.4124 55.1287 55.4124 55.7416ZM56.0603 43.4908C55.9914 43.8712 55.7916 44.2152 55.4959 44.4629C55.2002 44.7106 54.8273 44.8462 54.4422 44.8461H34.6188L32.5864 33.6205H57.8478L56.0603 43.4908Z" fill="url(#paint1_linear_1501_3240)" />
+            <defs>
+                <linearGradient id="paint0_linear_1501_3240" x1="42.5864" y1="0.387695" x2="42.5864" y2="84.6846" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1501_3240" x1="42.5857" y1="25.0361" x2="42.5857" y2="60.0361" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="#E4FC22" />
+                </linearGradient>
             </defs>
         </svg>
 

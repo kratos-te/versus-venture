@@ -7,8 +7,8 @@ import Possible from "./Possible";
 
 const Ability: FC = () => {
     return (
-        <div className="flex py-[150px] px-24">
-            <div className="flex flex-col gap-[160px] max-w-[1440px]">
+        <div className="flex py-[150px] px-24 bg-[#060606]">
+            <div className="flex flex-col gap-[160px] max-w-[1440px] mx-auto">
                 <Fragment />
                 <Impossible />
                 <Possible />

@@ -16,11 +16,8 @@ const MainLayout: FC<Props> = ({ children, className, bgSrc,
         <div className="relative overflow-hidden">
             <Header />
             <main
-                className={`min-h-screen bg-dark-300 pb-[480px] ${className ? className : ""
+                className={`min-h-screen bg-dark-300 ${className ? className : ""
                     }`}
-                style={{
-                    paddingBottom: 480,
-                }}
             >
                 {children}
             </main>

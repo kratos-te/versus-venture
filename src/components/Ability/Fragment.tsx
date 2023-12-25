@@ -7,7 +7,7 @@ import FramgmentCard from "./FragmentCard"
 
 const Fragment: FC = () => {
     return (
-        <div className="flex flex-col gap-[120px]">
+        <div className="flex flex-col gap-[120px] mx-auto">
             <div className="flex flex-col text-center items-center">
                 <div className="vision-text text-[48px] font-bold mb-[50px]">PROOF OF FRAGMENT</div>
                 <div className="text-[36px] font-bold text-white mb-[35px]">Re-imagining Consensus</div>

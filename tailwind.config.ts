@@ -43,6 +43,7 @@ const config: Config = {
       },
       fontFamily: {
         rubik: "var(--font-rubik)",
+        cairo: "var(--font-cairo)",
       },
     },
   },

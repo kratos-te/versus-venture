@@ -27,7 +27,7 @@ body {
 }
 
 .vision-text {
-  background: linear-gradient(90deg, #FFF 0%, #E4FC22 100%);
+  background: linear-gradient(90deg, #FFF 17%, #E4FC22 42%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,4 +37,23 @@ body {
   background: linear-gradient(90deg, #e4fc22 0%, #f4feac 100%);
 }
 
+.fragment-text {
+  background: linear-gradient(90deg, #FFF 45%, #E4FC22 55%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.difference-text {
+  background: linear-gradient(90deg, #FFF 0%, #E4FC22 93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature-text {
+  background: linear-gradient(180deg, #FFF 0%, #E4FC22 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

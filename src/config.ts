@@ -17,6 +17,12 @@ import {
   PostSign,
   InfinityScal,
   PermanentData,
+  ConceptIcon,
+  FeatureIcon,
+  Freedom,
+  UseCase,
+  NftTech,
+  Shopping,
 } from "./components/SVGIcon";
 
 export const HEADER_LINK = [
@@ -193,5 +199,71 @@ export const POSSIBLE = [
     icon: PermanentData,
     description:
       "The Versus blockchain can be used to store data and files permanently, certifying the authenticity of the information you want to enter",
+  },
+];
+
+export const FEATURE = [
+  {
+    title: "Concept of Blockchain",
+    icon: ConceptIcon,
+    description:
+      "The first very decentralized and distribuited blockchain of the world",
+  },
+  {
+    title: "Features of DeFi Instruments",
+    icon: FeatureIcon,
+    description:
+      "Multi-swaps, detailed charts, updated crypto news and many other new tools introduced",
+  },
+  {
+    title: "Freedom of Expression",
+    icon: Freedom,
+    description:
+      "We safeguard and make your freedom sacred with our state-of-the-art decentralized social platform",
+  },
+  {
+    title: "Use Cases",
+    icon: UseCase,
+    description:
+      "Get ready to see new methodologies of using these technologies: receipts and payment systems, 3D Virtual Stores and much more",
+  },
+  {
+    title: "NFT Tecnology",
+    icon: NftTech,
+    description:
+      "Immutability of nft and indissoluble link with the blockchain, no files will be uploaded to centralized servers",
+  },
+  {
+    title: "Concept of Online Shopping",
+    icon: Shopping,
+    description:
+      "From today you can forget about the Usual Online Marketplaces. Get ready to shop with smart contracts",
+  },
+];
+
+export const ECOSYSTEM = [
+  {
+    title: "DEX",
+    description:
+      "Multiswap, Tradingview and Swap-Stop Loss/Take Profit with the lowest fees",
+    link: "./",
+  },
+  {
+    title: "Verse",
+    description:
+      "Decentralized social network. Securely log in with your Wallet to access unparalleled freedom of expression and a variety of cutting-edge features: posts, 3D interactions, a marketplace, gaming, MetaVersus sessions, and more",
+    link: "./",
+  },
+  {
+    title: "Marketplace",
+    description:
+      "NFT creation and publication marketplace, visible on the Versus platform and dApp.",
+    link: "./",
+  },
+  {
+    title: "MetaVersus",
+    description:
+      "Open world, private and multiverse sessions with top-tier graphics are coming soon. Experience 3D virtual stores, stunning real estate tours, custom Al creation and innovative meta-marketing.",
+    link: "./",
   },
 ];
