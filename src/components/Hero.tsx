@@ -9,7 +9,7 @@ const Hero: FC = () => {
     return (
         <div className="flex px-24">
             <div className="flex items-center max-w-[1440px] justify-end mx-auto pt-[300px] mb-[200px]">
-                <img src={"./svg/hero.svg"} className="absolute left-0 -top-16 pointer-events-none w-full  object-cover opacity-80 lg:opacity-100" alt="hero" />
+                <img src={"./svg/hero.svg"} className="absolute left-0 -top-16 pointer-events-none w-full  object-cover opacity-80 lg:opacity-100" alt="vision" />
                 <div className="flex flex-col gap-[50px] w-1/2">
                     <div className="flex flex-col gap-[25px]">
                         <div className="text-[20px] font-medium text-white">

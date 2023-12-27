@@ -23,6 +23,7 @@ import {
   UseCase,
   NftTech,
   Shopping,
+  Power,
 } from "./components/SVGIcon";
 
 export const HEADER_LINK = [
@@ -265,5 +266,26 @@ export const ECOSYSTEM = [
     description:
       "Open world, private and multiverse sessions with top-tier graphics are coming soon. Experience 3D virtual stores, stunning real estate tours, custom Al creation and innovative meta-marketing.",
     link: "./",
+  },
+];
+
+export const METAPOWER = [
+  {
+    title: "Functionality",
+    icon: Power,
+    description:
+      "Imagine a world where the Metaverse simplifies complex processes, modernizes everyday activities, and offers innovative experiences. We're integrating the Metaverse into existing technologies, transforming the ordinary into the extraordinary",
+  },
+  {
+    title: "User Experience",
+    icon: Power,
+    description:
+      "Our team at Versus is committed to providing the highest quality graphics, locations, and experiences. We want to create spaces where you can unleash your creativity and build your ideal digital world",
+  },
+  {
+    title: "Business Benefits",
+    icon: Power,
+    description:
+      "At Versus, we see the Metaverse as a game-changer for companies. Our research and case studies have proven that it offers a new platform for targeted marketing and virtual storefronts. Embrace this opportunity to reduce costs, increase visibility, and gain traction like never before",
   },
 ];

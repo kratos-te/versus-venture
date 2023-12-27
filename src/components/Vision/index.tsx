@@ -3,10 +3,19 @@
 
 import { FC } from "react"
 import Image from "next/image"
+import { usePathname, useRouter } from "next/navigation";
 import { DarkArrow } from "../SVGIcon"
 import Button from "../Button"
 
 const Vision: FC = () => {
+
+    const router = useRouter();
+
+    const handleToVision = () => {
+        router.push("/vision");
+    }
+
+
     return (
         <div className="flex px-24">
             <div className="flex py-[150px] max-w-[1440px] justify-between mx-auto">
@@ -20,7 +29,7 @@ const Vision: FC = () => {
                     <div className="text-white text-[27px] font-medium">
                         Welcome to Versus, the epitome of passion, innovation, and boundless ambition. Brace yourself for an exhilarating journey into a future that will redefine the very fabric of our existence. Prepare to be captivated, inspired, and empowered as we embark on a transformative mission that knows no limits.
                     </div>
-                    <Button className="flex gap-[20px] items-center build-button px-[36px] py-[18px] font-rubik font-semibold text-[27px] w-fit">Read more <DarkArrow /></Button>
+                    <Button className="flex gap-[20px] items-center build-button px-[36px] py-[18px] font-rubik font-semibold text-[27px] w-fit" onClick={handleToVision}>Read more <DarkArrow /></Button>
                 </div>
             </div >
         </div>
