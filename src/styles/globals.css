@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: black;
+}
+.hero-text {
+  background: linear-gradient(93deg, #fff 0%, #e4fc22 99.8%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vision-text {
+  background: linear-gradient(90deg, #fff 17%, #e4fc22 42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.build-button {
+  background: linear-gradient(90deg, #e4fc22 0%, #f4feac 100%);
+}
+
+.fragment-text {
+  background: linear-gradient(90deg, #fff 45%, #e4fc22 55%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.difference-text {
+  background: linear-gradient(90deg, #fff 0%, #e4fc22 93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature-text {
+  background: linear-gradient(180deg, #fff 0%, #e4fc22 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.planet-text {
+  background: linear-gradient(
+    97deg,
+    #e4fc22 -0.9%,
+    #fff 14.26%,
+    #e4fc22 23.64%,
+    #f3ff93 42.82%,
+    #e4fc22 62.9%,
+    #f8ffbc 93.27%,
+    #fff 107.19%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature-pad {
+  background: linear-gradient(90deg, #171717 0.05%, #121212 28.15%, rgba(23, 23, 23, 0.00) 99.94%);
+
+}
