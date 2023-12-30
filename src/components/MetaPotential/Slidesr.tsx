@@ -1,7 +1,7 @@
 import { FC, useEffect } from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 const Sliders: FC = () => {
 
@@ -15,19 +15,20 @@ const Sliders: FC = () => {
         autoplaySpeed: 1000,
     };
     return (
-        <Slider {...settings}>
-            {/* {AfroStyles.map((item) => (
-                <div key={item.id}>
-                    <div className="img-body">
-                        <img src={item.src} alt={item.alt} />
-                    </div>
-                    <div>
-                        <h2>{item.title}</h2>
-                        <p>{item.description}</p>
-                    </div>
-                </div>
-            ))} */}
-        </Slider>
+        // <Slider {...settings}>
+        //     {/* {AfroStyles.map((item) => (
+        //         <div key={item.id}>
+        //             <div className="img-body">
+        //                 <img src={item.src} alt={item.alt} />
+        //             </div>
+        //             <div>
+        //                 <h2>{item.title}</h2>
+        //                 <p>{item.description}</p>
+        //             </div>
+        //         </div>
+        //     ))} */}
+        // </Slider>
+        <></>
     );
 };
 

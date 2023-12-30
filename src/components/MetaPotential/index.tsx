@@ -16,7 +16,7 @@ const MetaPotential: FC = () => {
                             A Versatile Metaverse Architecture
                         </div>
                         <div className="text-[20px] font-bold text-white">
-                            The foundation of the MetaVersus lies in its architecture. We've meticulously crafted a modular structure that adapts to different use cases and scenarios
+                            The foundation of the MetaVersus lies in its architecture. We have meticulously crafted a modular structure that adapts to different use cases and scenarios
                         </div>
                     </div>
                     <Slider />
