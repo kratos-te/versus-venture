@@ -1,4 +1,7 @@
+import Industry from "@/components/Industry";
+import MetaCommerce from "@/components/MetaCommerce";
 import MetaHero from "@/components/MetaHero";
+import MetaPotential from "@/components/MetaPotential";
 import MetaPower from "@/components/MetaPower";
 import MainLayout from "@/layouts/MainLayout";
 
@@ -8,6 +11,9 @@ export default function MetaVersus() {
             <MainLayout >
                 <MetaHero />
                 <MetaPower />
+                <MetaPotential />
+                <MetaCommerce />
+                <Industry />
             </MainLayout>
         </>
     )

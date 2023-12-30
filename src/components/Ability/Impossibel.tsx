@@ -10,9 +10,14 @@ const Impossible: FC = () => {
             <div className="flex items-center justify-center text-[48px] fragment-text font-bold">
                 The impossible
             </div>
-            <div className="grid w-full gap-[25px]" style={{
+            <div className="grid w-full gap-[25px] max-lg:hidden" style={{
                 gridTemplateColumns: `repeat(3, minmax(0, 1fr))`,
             }}>
+                {IMPOSSIBLE.map((item, key) => (
+                    <MakeCard key={key} title={item.title} icon={<item.icon />} description={item.description}></MakeCard>
+                ))}
+            </div>
+            <div className="flex flex-col gap-[20px] lg:hidden" >
                 {IMPOSSIBLE.map((item, key) => (
                     <MakeCard key={key} title={item.title} icon={<item.icon />} description={item.description}></MakeCard>
                 ))}

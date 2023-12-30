@@ -24,6 +24,17 @@ import {
   NftTech,
   Shopping,
   Power,
+  ShowroomIcon,
+  DigitalIcon,
+  PrivacyIcon,
+  FreedomIcon,
+  AtomIcon,
+  CreativeIcon,
+  InnovationIcon,
+  MonetIcon,
+  TradingIcon,
+  CommunityIcon,
+  GrowthIcon,
 } from "./components/SVGIcon";
 
 export const HEADER_LINK = [
@@ -287,5 +298,171 @@ export const METAPOWER = [
     icon: Power,
     description:
       "At Versus, we see the Metaverse as a game-changer for companies. Our research and case studies have proven that it offers a new platform for targeted marketing and virtual storefronts. Embrace this opportunity to reduce costs, increase visibility, and gain traction like never before",
+  },
+];
+
+export const METACOMMERCE = [
+  {
+    title: "Experience Virtual Showrooms",
+    icon: ShowroomIcon,
+    description:
+      "Certified businesses offer virtual and real showrooms, providing expert guidance on products and services with an exactly 3D reproduction of real-world articles",
+  },
+  {
+    title: "Own Digital Assets",
+    icon: DigitalIcon,
+    description:
+      "With every purchase, receive NFTs representing the product and an actual digital receipt. Embrace the future of commerce with cryptocurrency payments",
+  },
+  {
+    title: "Next-Level Marketing",
+    icon: DigitalIcon,
+    description:
+      "Companies can leverage 3D ads in iconic virtual locations for innovative and targeted marketing campaigns. Be part of a marketing revolution that captivates audiences worldwide",
+  },
+];
+
+export const VERSEPILLARS = [
+  {
+    title: "Privacy",
+    icon: PrivacyIcon,
+    description: "Your data is yours alone",
+  },
+  {
+    title: "Freedom",
+    icon: FreedomIcon,
+    description: "Express you and your ideas, freely",
+  },
+  {
+    title: "Decentralization",
+    icon: AtomIcon,
+    description: "No central authority controls, conditions or censors you",
+  },
+  {
+    title: "Creativity",
+    icon: CreativeIcon,
+    description: "Create,connect and experiment without limits",
+  },
+  {
+    title: "Innovation",
+    icon: InnovationIcon,
+    description: "New technologies, approaches and features",
+  },
+  {
+    title: "monetization",
+    icon: MonetIcon,
+    description: "Make money from your passions",
+  },
+  {
+    title: "Trading",
+    icon: TradingIcon,
+    description: "buy and sell items, homes and more in crypto",
+  },
+  {
+    title: "Community",
+    icon: CommunityIcon,
+    description: "create or be part of the group that represents you",
+  },
+  {
+    title: "Growth",
+    icon: GrowthIcon,
+    description: "We promote ethics, quality and socio-economic growth",
+  },
+];
+
+export const ECOSYSTEM_MENU = [
+  {
+    title: "Verse",
+    link: "/verse",
+  },
+  {
+    title: "MetaVersus",
+    link: "/metaversus",
+  },
+];
+
+export const ABOUT_MENU = [
+  {
+    title: "Homepage",
+    link: "/",
+  },
+  {
+    title: "Vision",
+    link: "/vision",
+  },
+  {
+    title: "Verse",
+    link: "/verse",
+  },
+  {
+    title: "MetaVersus",
+    link: "/metaversus",
+  },
+];
+
+export const verseData = [
+  {
+    icon: "/img/media.png",
+    title: "Photos, Videos, Groups, and Streamings",
+    midTitle: "Express Yourself",
+    content: "Post photos, videos, and live streams with ease",
+    position: "left",
+    selected: false,
+  },
+  {
+    icon: "/img/encrypt.png",
+    title: "Encrypted P2P Messaging",
+    midTitle: "Secure Communication",
+    content: "Embrace uninterrupted and private conversations",
+    position: "left",
+    selected: true,
+  },
+  {
+    icon: "/img/video.png",
+    title: "Secure Video and Voice Calls",
+    midTitle: "Confidential Communication",
+    content: "Enjoy secure and private calls without intrusion",
+    position: "left",
+    selected: false,
+  },
+  {
+    icon: "/img/metaverse.png",
+    title: "AR/VR 3D Marketplaces",
+    midTitle: "Explore Immersive 3D Stores",
+    content: "Discover replicas and purchase real products",
+    position: "right",
+    selected: false,
+  },
+  {
+    icon: "/img/film.png",
+    title: "Film Reels",
+    midTitle: "Cinematic Adventure",
+    content: "Watch movies and trailers in reel mode",
+    position: "right",
+    selected: false,
+  },
+  {
+    icon: "/img/segment.png",
+    title: "Interest Segments",
+    midTitle: "Connect with Like-Minded Souls",
+    content: "Discover niche communities and forge bonds",
+    position: "right",
+    selected: false,
+  },
+  {
+    icon: "/img/crypto.png",
+    title: "Crypto Transactions",
+    midTitle: "Digital Currency Made Simple",
+    content: "Pay and exchange cryptocurrency with friends",
+    position: "right",
+    selected: false,
+  },
+  {
+    icon: "/img/access.png",
+    title: "One-Click MetaVersus Access",
+    midTitle: "",
+    content: "Join MetaVersus solo or with friends in an instant",
+    position: "right",
+    selected: true,
   },
 ];
