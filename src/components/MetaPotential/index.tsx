@@ -1,7 +1,7 @@
 "use client"
 
 import { FC } from "react"
-import Slider from "./Slidesr";
+import Slider from "./Sliders";
 
 const MetaPotential: FC = () => {
     return (

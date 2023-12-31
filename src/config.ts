@@ -35,6 +35,9 @@ import {
   TradingIcon,
   CommunityIcon,
   GrowthIcon,
+  MachineIcon,
+  WorldIcon,
+  AIIcon,
 } from "./components/SVGIcon";
 
 export const HEADER_LINK = [
@@ -464,5 +467,29 @@ export const verseData = [
     content: "Join MetaVersus solo or with friends in an instant",
     position: "right",
     selected: true,
+  },
+];
+
+export const SLIDER = [
+  {
+    icon: MachineIcon,
+    title: "AI and Machine Learning",
+    description:
+      "Our intelligent agents personalize your experience and guide you through the Metaverse. Get tailored recommendations based on your preferences and behavior, ensuring a truly immersive adventure.",
+    color: "bg-gradient-to-b from-white to-yellow-300",
+  },
+  {
+    icon: WorldIcon,
+    title: "Main Open World",
+    description:
+      "A large city. The backbone of our platform offers seamless and immersive experiences. Advanced cloud computing and networking technologies ensure a massive influx of users and data without compromising performance.",
+    color: " bg-gradient-to-t from-[#111] to-[#0B0B0B]",
+  },
+  {
+    icon: AIIcon,
+    title: "AI and Machine Learning",
+    description:
+      "Step into various sub-worlds, each with unique characteristics and themes. From educational experiences to thrilling entertainment, explore boundless opportunities within the Metaverse.",
+    color: "bg-gradient-to-b from-white to-yellow-300",
   },
 ];
