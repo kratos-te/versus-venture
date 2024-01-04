@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { FC } from "react"
+import { FC } from "react";
 import Fragment from "./Fragment";
-import Impossible from "./Impossibel";
+import Impossible from "./Impossible";
 import Possible from "./Possible";
 
 const Ability: FC = () => {
@@ -14,7 +14,7 @@ const Ability: FC = () => {
                 <Possible />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Ability; 
+export default Ability;

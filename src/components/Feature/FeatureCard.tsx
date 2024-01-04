@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { FC } from "react"
+import { FC } from "react";
 
 interface FeatureProps {
-    title: string
-    icon: JSX.Element
-    description: string
+    title: string;
+    icon: JSX.Element;
+    description: string;
 }
 
 const FeatureCard: FC<FeatureProps> = ({ title, icon, description }) => {
@@ -15,11 +15,11 @@ const FeatureCard: FC<FeatureProps> = ({ title, icon, description }) => {
             <div className="text-[32px] font-rubik font-semibold text-white">
                 {title}
             </div>
-            <div className="text-[24px] font-rubik font-normal text-white">
+            <div className="text-[20px] font-rubik font-normal text-white">
                 {description}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default FeatureCard
+export default FeatureCard;

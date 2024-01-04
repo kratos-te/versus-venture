@@ -10,23 +10,17 @@ interface Props {
     bgClass?: string;
 }
 
-const MainLayout: FC<Props> = ({ children, className, bgSrc,
-    bgClass, }) => {
+const MainLayout: FC<Props> = ({ children, className, bgSrc, bgClass }) => {
     return (
         <div className="relative overflow-hidden">
             <Header />
-            <main
-                className={`min-h-screen bg-dark-300 ${className ? className : ""
-                    }`}
-            >
+            <main className={`min-h-screen bg-dark-300 ${className || ""}`}>
                 {children}
             </main>
             <Footer />
-            {bgSrc && (
-                <img src={bgSrc} className={bgClass} alt="nft image" />
-            )}
+            {bgSrc && <img src={bgSrc} className={bgClass} alt="nft" />}
         </div>
-    )
-}
+    );
+};
 
 export default MainLayout;
