@@ -20,7 +20,7 @@ export const MenuButton: FC<MenuButtonProps> = ({
             onClick={onClick ? onClick : () => { }}
         >
             <div className={`flex items-center space-x-2 ${className || ""}`}>
-                <p className="text-white text-[24px] font-medium font-rubik">
+                <p className="text-white text-[18px] font-medium font-rubik">
                     {title}
                 </p>
                 <div className="w-6 h-6 flex items-center justify-between">
