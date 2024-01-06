@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { SELECT_ICON } from "@/config";
@@ -10,13 +11,12 @@ const SelectPart: FC = () => {
                 {SELECT_ICON.map((item, key) => (
                     <div
                         key={key}
-                        className={`flex justify-center w-1/3 items-center gap-[30px] max-xl:gap-[16px] max-lg:hidden${
-                            item.title === "Scalable"
-                                ? " border-x-[3px] border-main "
-                                : ""
-                        }`}
+                        className={`flex justify-center w-1/3 items-center gap-[30px] max-xl:gap-[16px] max-lg:hidden${item.title === "Scalable"
+                            ? " border-x-[3px] border-main "
+                            : ""
+                            }`}
                     >
-                        <item.icon />
+                        <img src={item.icon} alt="selected icon" />
                         <div className=" font-rubik text-white text-[20px] font-semibold max-xl:text-[20px]">
                             {item.title}{" "}
                         </div>
@@ -25,13 +25,12 @@ const SelectPart: FC = () => {
                 {SELECT_ICON.map((item, key) => (
                     <div
                         key={key}
-                        className={`flex gap-[20px] items-center lg:hidden${
-                            item.title === "Scalable"
-                                ? " border-y-[3px] border-main py-[10px]"
-                                : ""
-                        }`}
+                        className={`flex gap-[20px] items-center lg:hidden${item.title === "Scalable"
+                            ? " border-y-[3px] border-main py-[10px]"
+                            : ""
+                            }`}
                     >
-                        <item.icon />
+                        <img src={item.icon} alt="selected icon" />
                         <div className="w-1/3 font-rubik text-white text-[20px] font-semibold max-xl:text-[20px]">
                             {item.title}{" "}
                         </div>

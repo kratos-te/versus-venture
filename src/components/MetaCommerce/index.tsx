@@ -18,7 +18,7 @@ const MetaCommerce: FC = () => {
                     <img src={"./img/bucket.png"} className="absolute left-0 top-10 max-lg:hidden" alt="meta bucket" />
                 </div>
             </div>
-            <div className="flex py-[75px] px-24 bg-gradient-to-b from-white to-yellow-300 ">
+            <div className="flex py-[75px] px-24 bg-gradient-to-b from-white to-[#E4FC22] ">
                 <div className="flex flex-col max-w-[1440px] w-2/3 mx-auto relative items-end  max-lg:w-full max-lg:items-center">
                     <div className="flex flex-col ">
                         <div className="text-[32px] font-semibold max-lg:text-[20px]">

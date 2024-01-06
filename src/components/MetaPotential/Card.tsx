@@ -17,7 +17,7 @@ const Card: FC<CardProps> = ({ icon, title, description, color }) => {
             <div className="mx-[14px] rounded-[25px] bg-gray-700 bg-opacity-25 mt-[14px]"></div>
             <div className="mx-[7px] rounded-[25px] bg-gray-600 bg-opacity-25 mt-[28px]"></div> */}
             <div className={`w-[384px] h-[600px] mt-[42px] relative `}>
-                <div className={`${color} h-[600px] py-[65px] relative rounded-[25px] px-[40px] z-10`}>
+                <div className={` h-[600px] py-[65px] relative rounded-[25px] px-[40px] z-10 ${color}`}>
                     {icon}
                     <div className="flex flex-col gap-[25px] relative z-10 my-[50px]">
                         <div className={`text-[28px] font-bold ${title === "AI and Machine Learning" ? "text-black" : "hero-text"}`}>{title}</div>

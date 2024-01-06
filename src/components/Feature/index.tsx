@@ -11,12 +11,12 @@ const Feature: FC = () => {
                 gridTemplateColumns: `repeat(3, minmax(0, 1fr))`,
             }}>
                 {FEATURE.map((item, key) => (
-                    <FeatureCard key={key} title={item.title} icon={<item.icon />} description={item.description} />
+                    <FeatureCard key={key} title={item.title} icon={item.icon} description={item.description} />
                 ))}
             </div>
             <div className="flex flex-col gap-[116px] lg:hidden" >
                 {FEATURE.map((item, key) => (
-                    <FeatureCard key={key} title={item.title} icon={<item.icon />} description={item.description} />
+                    <FeatureCard key={key} title={item.title} icon={item.icon} description={item.description} />
                 ))}
             </div>
         </div>

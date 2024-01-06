@@ -16,10 +16,10 @@ const MetaHero: FC = () => {
                 <div className="flex flex-col gap-[50px] w-1/2 max-lg:w-full">
                     <div className="flex flex-col gap-[25px]">
                         <div className="text-[20px] font-medium text-white">
-                            Welcome to the MetaVersus
+                            Welcome to the MetaVersus 
                         </div>
                     </div>
-                    <div className="text-[58px] font-black hero-text leading-tight">
+                    <div className="text-[58px] font-extrabold hero-text leading-tight">
                         Unlocking Infinite Realms of Imagination
                     </div>
                     <div className="text-2xl font-medium text-white">
@@ -37,13 +37,11 @@ const MetaHero: FC = () => {
                 </div>
                 <div className="flex w-1/2">
                     {/* <img src="./svg/golden.svg" alt="hero building" ></img> */}
-                    <Image
+                    <img
                         src="/img/metagirl.png"
-                        width={750}
-                        height={600}
                         alt="hero building"
-                        className="absolute right-0 bottom-0 object-cover max-lg:hidden"
-                    ></Image>
+                        className="absolute right-0 bottom-0 object-cover w-[800px] h-[750px] max-lg:hidden"
+                    ></img>
                 </div>
             </div>
         </div>

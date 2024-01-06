@@ -112,17 +112,17 @@ export const SOCIAL_LINK = [
 export const SELECT_ICON = [
   {
     title: "Decentralized",
-    icon: DecentralIcon,
+    icon: "/icon/DecentralIcon.png",
     link: "./",
   },
   {
     title: "Scalable",
-    icon: ScaleIcon,
+    icon: "/icon/ScaleIcon.png",
     link: "./",
   },
   {
     title: "Secured",
-    icon: SecureIcon,
+    icon: "/icon/SecureIcon.png",
     link: "./",
   },
 ];
@@ -130,21 +130,21 @@ export const SELECT_ICON = [
 export const VALUE_ICON = [
   {
     title: "Decentralization",
-    icon: DecentralMiniIcon,
+    icon: "/icon/DecentralMiniIcon.png",
     description:
       "The real decentralization has arrived, our blockchain does not make requests to servers and can never be centralized, but the sum of its nodes is the blockchain itself.",
   },
   {
-    title: "Security",
-    icon: SecureMiniIcon,
-    description:
-      "Our blockchain is totally immutable and secure, the only one that combines SHA3 hashes with post quantum cryptographic signatures, resistant to any type of tampering.",
-  },
-  {
     title: "Scalability",
-    icon: ScalenMiniIcon,
+    icon: "/icon/ScalenMiniIcon.png",
     description:
       "The technology of plasma 2.0 (designed by us), of the dag and the use of sharding make our blockchain a lightning bolt and with extreme ability to scale.",
+  },
+  {
+    title: "Security",
+    icon: "/icon/SecureMiniIcon.png",
+    description:
+      "Our blockchain is totally immutable and secure, the only one that combines SHA3 hashes with post quantum cryptographic signatures, resistant to any type of tampering.",
   },
 ];
 
@@ -178,19 +178,19 @@ export const FRAGMENT = [
 export const IMPOSSIBLE = [
   {
     title: "Security & Stability",
-    icon: SecureStable,
+    icon: "/icon/SecureStable.png",
     description:
       "Many blockchains today use algorithms that tend to give up the security and stability of the network, for faster processing",
   },
   {
     title: "Scalability and Fees",
-    icon: ScalFree,
+    icon: "/icon/ScalFree.png",
     description:
       "One of the obstacles to the mass-adoption of cryptocurrencies is undoubtedly the scalability that severely affects the gas fees of the blockchain",
   },
   {
     title: "Data Storage",
-    icon: DataStore,
+    icon: "/icon/DataStore.png",
     description:
       "In the world of web 3.0 currently data and digital files reside on a centralized server, without you would not have the data available",
   },
@@ -199,19 +199,19 @@ export const IMPOSSIBLE = [
 export const POSSIBLE = [
   {
     title: "Post Quantum Signatures and Optimized Algorithms",
-    icon: PostSign,
+    icon: "/icon/PostSign.png",
     description:
       "Through the use of post quantum signatures and specific algorithms of our invention, we have managed to create a stable and impenetrable system, without sacrificing unprecedented speed",
   },
   {
     title: "Infinity Scaling & Zero-fees",
-    icon: InfinityScal,
+    icon: "/icon/InfinityScal.png",
     description:
       "Through the creation of the world's first fully distributed blockchain, we have created the concept of infinite scalability, with a range of fees close to zero",
   },
   {
     title: "Permanent Data",
-    icon: PermanentData,
+    icon: "/icon/PermanentData.png",
     description:
       "The Versus blockchain can be used to store data and files permanently, certifying the authenticity of the information you want to enter",
   },
@@ -220,37 +220,37 @@ export const POSSIBLE = [
 export const FEATURE = [
   {
     title: "Concept of Blockchain",
-    icon: ConceptIcon,
+    icon: "/icon/ConceptIcon.png",
     description:
       "The first very decentralized and distribuited blockchain of the world",
   },
   {
     title: "Features of DeFi Instruments",
-    icon: FeatureIcon,
+    icon: "/icon/FeatureIcon.png",
     description:
       "Multi-swaps, detailed charts, updated crypto news and many other new tools introduced",
   },
   {
     title: "Freedom of Expression",
-    icon: Freedom,
+    icon: "/icon/Freedom.png",
     description:
       "We safeguard and make your freedom sacred with our state-of-the-art decentralized social platform",
   },
   {
     title: "Use Cases",
-    icon: UseCase,
+    icon: "/icon/UseCase.png",
     description:
       "Get ready to see new methodologies of using these technologies: receipts and payment systems, 3D Virtual Stores and much more",
   },
   {
     title: "NFT Tecnology",
-    icon: NftTech,
+    icon: "/icon/NftTech.png",
     description:
       "Immutability of nft and indissoluble link with the blockchain, no files will be uploaded to centralized servers",
   },
   {
     title: "Concept of Online Shopping",
-    icon: Shopping,
+    icon: "/icon/Shopping.png",
     description:
       "From today you can forget about the Usual Online Marketplaces. Get ready to shop with smart contracts",
   },
@@ -307,19 +307,19 @@ export const METAPOWER = [
 export const METACOMMERCE = [
   {
     title: "Experience Virtual Showrooms",
-    icon: ShowroomIcon,
+    icon: "/icon/ShowroomIcon.png",
     description:
       "Certified businesses offer virtual and real showrooms, providing expert guidance on products and services with an exactly 3D reproduction of real-world articles",
   },
   {
     title: "Own Digital Assets",
-    icon: DigitalIcon,
+    icon: "/icon/DigitalIcon.png",
     description:
       "With every purchase, receive NFTs representing the product and an actual digital receipt. Embrace the future of commerce with cryptocurrency payments",
   },
   {
     title: "Next-Level Marketing",
-    icon: DigitalIcon,
+    icon: "/icon/DigitalIcon.png",
     description:
       "Companies can leverage 3D ads in iconic virtual locations for innovative and targeted marketing campaigns. Be part of a marketing revolution that captivates audiences worldwide",
   },
@@ -476,7 +476,7 @@ export const SLIDER = [
     title: "AI and Machine Learning",
     description:
       "Our intelligent agents personalize your experience and guide you through the Metaverse. Get tailored recommendations based on your preferences and behavior, ensuring a truly immersive adventure.",
-    color: "bg-gradient-to-b from-white to-yellow-300",
+    color: "bg-gradient-to-b from-white to-[#E4FC22]",
   },
   {
     icon: WorldIcon,
@@ -490,6 +490,6 @@ export const SLIDER = [
     title: "AI and Machine Learning",
     description:
       "Step into various sub-worlds, each with unique characteristics and themes. From educational experiences to thrilling entertainment, explore boundless opportunities within the Metaverse.",
-    color: "bg-gradient-to-b from-white to-yellow-300",
+    color: "bg-gradient-to-b from-white to-[#E4FC22]",
   },
 ];

@@ -41,7 +41,7 @@ const Sliders: FC = () => {
                     {SLIDER.map((item, key) => (
                         // <div className='w-[400px] h-[600px] border border-white text-white' key={key}>
                         //     {item.icon}
-                        //     <h5>{item.title}</h5>
+                        //     <h5>{item.title}</h5>ㅏ
                         //     <p>{item.description}</p>
                         // </div>
                         <Card key={key} icon={<item.icon />} title={item.title} description={item.description} color={item.color} />
