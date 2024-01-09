@@ -28,11 +28,11 @@ const VersePillars: FC = () => {
                                 <Pillar key={key} title={item.title} description={item.description} icon={<item.icon />} />
                             ))}
                         </div>
-                        <div className="flex flex-col w-full gap-[19px]  lg:hidden" >
+                        {/* <div className="flex flex-col w-full gap-[19px]  lg:hidden" >
                             {VERSEPILLARS.map((item, key) => (
                                 <Pillar key={key} title={item.title} description={item.description} icon={<item.icon />} />
                             ))}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

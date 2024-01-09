@@ -64,7 +64,7 @@ const VerseFeature: FC = () => {
                                     position={item.position} />
                             ))}
                         </div>
-                        <div className="flex flex-col w-full gap-[19px] lg:hidden" >
+                        {/* <div className="flex flex-col w-full gap-[19px] lg:hidden" >
                             {verseData.map((item, key) => (
                                 <VersusCard key={key}
                                     icon={item.icon}
@@ -73,7 +73,7 @@ const VerseFeature: FC = () => {
                                     content={item.content}
                                     position={item.position} />
                             ))}
-                        </div>
+                        </div> */}
                         {/* <div className="grid w-full gap-[70px]" style={{
                             gridTemplateColumns: `repeat(3, minmax(0, 1fr))`,
                         }}>

@@ -78,3 +78,15 @@ body {
   background: linear-gradient(90deg, #171717 0.05%, #121212 28.15%, rgba(23, 23, 23, 0.00) 99.94%);
 
 }
+
+.verse-text {
+font-size: 95.501px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 252, 34, 1) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
