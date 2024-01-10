@@ -10,7 +10,7 @@ const Commerces: FC = () => {
             <div className="flex items-center max-w-[1440px] mx-auto">
                 <div className="flex gap-[120px] items-center max-lg:flex max-lg:flex-col max-lg:gap-[100px]">
                     {METACOMMERCE.map((item, key) => (
-                        <Commerce key={key} title={item.title} icon={<item.icon />} description={item.description} />
+                        <Commerce key={key} title={item.title} icon={item.icon} description={item.description} />
                     ))}
                 </div>
             </div>

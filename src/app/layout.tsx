@@ -5,6 +5,7 @@ import { rubik } from "@/styles/font";
 import { cairo } from '@/styles/font';
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {

@@ -12,12 +12,12 @@ const Value: FC = () => {
                     gridTemplateColumns: `repeat(3, minmax(0, 1fr))`,
                 }}>
                     {VALUE_ICON.map((item, key) => (
-                        <ValueContext key={key} icon={<item.icon />} title={item.title} description={item.description} />
+                        <ValueContext key={key} icon={item.icon} title={item.title} description={item.description} />
                     ))}
                 </div>
                 <div className="flex flex-col gap-[50px] lg:hidden" >
                     {VALUE_ICON.map((item, key) => (
-                        <ValueContext key={key} icon={<item.icon />} title={item.title} description={item.description} />
+                        <ValueContext key={key} icon={item.icon} title={item.title} description={item.description} />
                     ))}
                 </div>
             </div>
