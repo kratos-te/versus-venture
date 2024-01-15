@@ -6,8 +6,8 @@ import MakeCard from "./MakeCard";
 
 const Possible: FC = () => {
     return (
-        <div className="flex flex-col gap-[82px]">
-            <div className="flex items-center justify-center text-center text-[48px] fragment-text font-bold">
+        <div className="flex flex-col gap-[82px] max-mv:gap-[50px]">
+            <div className="flex items-center justify-center text-center text-[48px] fragment-text font-bold max-mv:text-[32px]">
                 Made Possible
             </div>
             <div className="grid w-full gap-[25px] max-lg:hidden" style={{
@@ -17,7 +17,7 @@ const Possible: FC = () => {
                     <MakeCard key={key} title={item.title} icon={item.icon} description={item.description}></MakeCard>
                 ))}
             </div>
-            <div className="flex flex-col gap-[25px] lg:hidden">
+            <div className="flex flex-col gap-[31px] lg:hidden">
                 {POSSIBLE.map((item, key) => (
                     <MakeCard key={key} title={item.title} icon={item.icon} description={item.description}></MakeCard>
                 ))}

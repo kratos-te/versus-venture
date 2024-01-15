@@ -8,12 +8,12 @@ const Footer: FC = () => {
     return (
         <div className="gap-[100px] px-24 max-lg:px-12">
             <div className="flex flex-col max-w-[1440px] mx-auto border-t-[1px] border-[#808080] max-lg:border-t-[0px]">
-                <div className="flex justify-between items-center py-24 max-lg:hidden">
+                <div className="flex justify-between items-center py-24 max-mv:hidden">
                     {FOOTER_LINK.map((item, key) => (
                         <FooterLink key={key} title={item.title} />
                     ))}
                 </div>
-                <div className="flex flex-col gap-[25px] items-center py-24 lg:hidden">
+                <div className="flex flex-col gap-[25px] items-center py-24 mv:hidden">
                     {FOOTER_LINK.map((item, key) => (
                         <FooterLink key={key} title={item.title} />
                     ))}
@@ -22,7 +22,7 @@ const Footer: FC = () => {
                     <div className="text-[32px] font-bold text-white uppercase max-lg:text-[28px]">
                         JOIN OUR GLOBAL COMMUNITY
                     </div>
-                    <div className="flex gap-[50px] max-lg:gap-[30px]">
+                    <div className="flex gap-[50px] max-mv:gap-[30px]">
                         {SOCIAL_LINK.map((item, key) => (
                             <SocialLink
                                 key={key}

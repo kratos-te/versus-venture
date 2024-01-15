@@ -14,15 +14,15 @@ const FooterLink: FC<FooterProps> = ({ title }) => {
     };
     return (
         <>
-            <div className="flex flex-col gap-[35px] max-lg:hidden">
+            <div className="flex flex-col gap-[35px] max-mv:hidden">
                 <div className="text-[24px] font-bold text-white">{title}</div>
-                <div className="t text-[20px] font-normal text-[#FFFFFFBF]">
+                <div className="ttext-[20px] font-normal text-[#FFFFFFBF]">
                     introduction
                 </div>
-                <div className="t text-[20px] font-normal text-[#FFFFFFBF]">
+                <div className="ttext-[20px] font-normal text-[#FFFFFFBF]">
                     introduction
                 </div>
-                <div className="t text-[20px] font-normal text-[#FFFFFFBF]">
+                <div className="ttext-[20px] font-normal text-[#FFFFFFBF]">
                     introduction
                 </div>
                 <div className="t text-[20px] font-normal text-[#FFFFFFBF]">
@@ -30,24 +30,24 @@ const FooterLink: FC<FooterProps> = ({ title }) => {
                 </div>
             </div>
 
-            <div className="flex items-center  justify-between w-full border-b-[1px] border-[#808080] pb-[20px] lg:hidden">
-                <div className="text-[28px] font-bold text-white">{title}</div>
+            <div className="flex items-center  justify-between w-full border-b-[1px] border-[#808080] pb-[20px] mv:hidden">
+                <div className="text-[16px] font-bold text-white">{title}</div>
                 <div onClick={handleOpenDrops}>
                     <PlusIcon />
                 </div>
             </div>
             {isDrops && (
                 <div className="flex flex-col gap-[25px] w-full justify-start">
-                    <div className=" text-[20px] font-normal text-[#FFFFFFBF]">
+                    <div className=" text-[14px] font-normal text-[#FFFFFFBF]">
                         introduction
                     </div>
-                    <div className="text-[20px] font-normal text-[#FFFFFFBF]">
+                    <div className="text-[14px] font-normal text-[#FFFFFFBF]">
                         introduction
                     </div>
-                    <div className=" text-[20px] font-normal text-[#FFFFFFBF]">
+                    <div className=" text-[14px] font-normal text-[#FFFFFFBF]">
                         introduction
                     </div>
-                    <div className="text-[20px] font-normal text-[#FFFFFFBF]">
+                    <div className="text-[14px] font-normal text-[#FFFFFFBF]">
                         introduction
                     </div>
                 </div>
