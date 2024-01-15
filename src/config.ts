@@ -135,14 +135,14 @@ export const VALUE_ICON = [
       "The real decentralization has arrived, our blockchain does not make requests to servers and can never be centralized, but the sum of its nodes is the blockchain itself.",
   },
   {
-    title: "Scalability",
-    icon: "/icon/ScalenMiniIcon.png",
+    title: "Security",
+    icon: "/icon/SecureMiniIcon.png",
     description:
       "The technology of plasma 2.0 (designed by us), of the dag and the use of sharding make our blockchain a lightning bolt and with extreme ability to scale.",
   },
   {
-    title: "Security",
-    icon: "/icon/SecureMiniIcon.png",
+    title: "Scalability",
+    icon: "/icon/ScalenMiniIcon.png",
     description:
       "Our blockchain is totally immutable and secure, the only one that combines SHA3 hashes with post quantum cryptographic signatures, resistant to any type of tampering.",
   },

@@ -5,13 +5,22 @@ import { Sunrise } from "../SVGIcon"
 
 const Difference: FC = () => {
     return (
-        <div className="flex py-[86px] px-24 bg-black border-y-[1px] border-[#3A3A3A] relative max-lg:px-12">
-            <div className="flex max-w-[1440px] mx-auto relative">
+        <div className="flex py-[86px] px-24 bg-black border-y-[1px] border-[#3A3A3A] relative max-mv:px-[170px] max-mv:py-0">
+            <div className="flex max-w-[1440px] mx-auto relative max-mv:hidden">
                 <div className="flex flex-col gap-[35px] w-1/2 max-lg:w-full">
                     <div className="text-[48px] vision-text font-cairo font-bold">We Make Difference</div>
                     <div className="text-[24px] font-rubik font-normal text-white">We are ready to revolutionize current systems and lead a global transition to a new decentralized technological-financial standard</div>
                 </div>
                 <div className=" absolute right-0 -bottom-[85px] max-lg:hidden">
+                    <Sunrise />
+                </div>
+            </div>
+            <div className="flex flex-col max-w-[881px] items-center justify-center mt-[50px] mv:hidden">
+                <div className="flex flex-col gap-[15px] ">
+                    <div className="text-[32px] vision-text font-cairo font-bold text-center">We Make Difference</div>
+                    <div className="text-[16px] font-rubik font-normal text-white text-center">We are ready to revolutionize current systems and lead a global transition to a new decentralized technological-financial standard</div>
+                </div>
+                <div className=" ">
                     <Sunrise />
                 </div>
             </div>

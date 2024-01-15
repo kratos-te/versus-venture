@@ -703,6 +703,20 @@ export const LightArrow: FC = () => {
     );
 };
 
+export const MobileLightArrow: FC = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="11" viewBox="0 0 25 11" fill="none">
+            <path d="M24.0287 5.77539C24.3033 5.50087 24.3033 5.05577 24.0287 4.78125L19.5551 0.307599C19.2806 0.0330729 18.8355 0.0330729 18.5609 0.307599C18.2864 0.582124 18.2864 1.02722 18.5609 1.30174L22.5375 5.27832L18.5609 9.2549C18.2864 9.52942 18.2864 9.97452 18.5609 10.249C18.8355 10.5236 19.2806 10.5236 19.5551 10.249L24.0287 5.77539ZM0.470703 5.98129H23.5317V4.57535H0.470703V5.98129Z" fill="url(#paint0_linear_3374_666)" />
+            <defs>
+                <linearGradient id="paint0_linear_3374_666" x1="-1.95803" y1="5.27832" x2="23.5317" y2="5.27832" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E4FC22" />
+                    <stop offset="1" stop-color="#F4FEAB" />
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
+
 export const DarkArrow: FC = () => {
     return (
         <svg
@@ -732,6 +746,20 @@ export const DarkArrow: FC = () => {
         </svg>
     );
 };
+
+export const MobileDarkArrow: FC = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="11" viewBox="0 0 24 11" fill="none">
+            <path d="M23.1049 5.92304C23.3698 5.65812 23.3698 5.2286 23.1049 4.96368L18.7878 0.646541C18.5229 0.381619 18.0933 0.381619 17.8284 0.646541C17.5635 0.911461 17.5635 1.34098 17.8284 1.6059L21.6659 5.44336L17.8284 9.28081C17.5635 9.54574 17.5635 9.97526 17.8284 10.2402C18.0933 10.5051 18.5229 10.5051 18.7878 10.2402L23.1049 5.92304ZM0.371094 6.12173H22.6252V4.76499H0.371094V6.12173Z" fill="url(#paint0_linear_3379_781)" />
+            <defs>
+                <linearGradient id="paint0_linear_3379_781" x1="-1.97267" y1="5.44336" x2="22.6252" y2="5.44336" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#3A3A3A" />
+                    <stop offset="1" stop-color="#1A1A1A" />
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
 
 export const WhiteArrow: FC = () => {
     return (
