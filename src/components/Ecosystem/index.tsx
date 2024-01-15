@@ -9,7 +9,7 @@ const Ecosystem: FC = () => {
     return (
         <div className="flex px-[135px] max-mv:px-[142px]">
             <img src={"./svg/grid.svg"} className="absolute left-0  pointer-events-none w-full  object-cover opacity-80 lg:opacity-100" alt="grid" />
-            <div className="flex items-center max-w-[1440px] justify-end mx-auto py-[150px] relative ">
+            <div className="flex items-center justify-end mx-auto py-[150px] relative ">
                 <div className="flex flex-col gap-[150px]">
                     <div className="flex flex-col  gap-[25px] justify-center uppercase">
                         <div className="fragment-text text-[48px] text-center  font-extrabold max-mv:text-[36px]">VERSUS ECOSYSTEM</div>
@@ -22,7 +22,7 @@ const Ecosystem: FC = () => {
                             <SystemCard key={key} title={item.title} description={item.description} link={item.link} />
                         ))}
                     </div>
-                    <div className="flex flex-col gap-[35px] mv:hidden" >
+                    <div className="flex flex-col w-full gap-[35px] mv:hidden" >
                         {ECOSYSTEM.map((item, key) => (
                             <SystemCard key={key} title={item.title} description={item.description} link={item.link} />
                         ))}

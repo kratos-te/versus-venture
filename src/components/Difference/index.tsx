@@ -15,7 +15,7 @@ const Difference: FC = () => {
                     <Sunrise />
                 </div>
             </div>
-            <div className="flex flex-col max-w-[881px] items-center justify-center mt-[50px] mv:hidden">
+            <div className="flex flex-col w-full items-center justify-center mt-[50px] mv:hidden">
                 <div className="flex flex-col gap-[15px] ">
                     <div className="text-[32px] vision-text font-cairo font-bold text-center">We Make Difference</div>
                     <div className="text-[16px] font-rubik font-normal text-white text-center">We are ready to revolutionize current systems and lead a global transition to a new decentralized technological-financial standard</div>

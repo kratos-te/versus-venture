@@ -53,7 +53,7 @@ const Hero: FC = () => {
             </div>
             <div className="flex items-center max-w-[881px] justify-center mx-auto pt-[200px] mb-[200px]  mv:hidden">
                 <img
-                    src={"./svg/hero.svg"}
+                    src={"./svg/mobile_hero.svg"}
                     className="absolute left-0 -top-16 pointer-events-none w-full  object-cover opacity-80 lg:opacity-100"
                     alt="vision"
                 />
