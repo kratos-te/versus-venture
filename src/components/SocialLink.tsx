@@ -11,7 +11,7 @@ const SocialLink: FC<SocialProps> = ({ icon, link }) => {
     return (
         <>
             <Link href={link} passHref>
-                <div>{icon}</div>
+                <div className="max-md:w-[]">{icon}</div>
             </Link>
         </>
     )

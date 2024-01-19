@@ -23,10 +23,10 @@ const Vision: FC = () => {
                         width={600}
                         height={820}
                         alt="vision"
-                        className="object-cover max-xl:hidden"
+                        className="object-cover "
                     ></Image>
                 </div>
-                <div className="flex flex-col mt-[150px] gap-[40px] rounded-[25px] border-[1px] border-main py-[70px] px-[60px] w-[630px] bg-gradient-to-t from-[#090808] to-gray-800 shadow-md shadow-main h-fit max-xl:w-full ">
+                <div className="flex flex-col mt-[150px] gap-[40px] rounded-[25px] border-[1px] border-main py-[70px] px-[60px] w-[630px] bg-gradient-to-t from-[#090808] to-gray-800 shadow-md shadow-main h-fit  ">
                     <div className="text-[45px] font-rubik font-semibold vision-text max-lg:text-[35px]">
                         Our Vision
                     </div>
@@ -46,7 +46,7 @@ const Vision: FC = () => {
                     </Button>
                 </div>
             </div>
-            <div className="flex flex-col gap-[100px] max-w-[881px] mx-[35px] mt-[100px] mb-[100px] mv:hidden">
+            <div className="flex flex-col gap-[100px] max-w-[881px] mx-[35px] mt-[100px] mb-[100px] mv:hidden max-md:gap-[50px]">
                 <div className="flex flex-col justify-center items-center">
                     <Image
                         src="/img/vision.png"
@@ -56,11 +56,11 @@ const Vision: FC = () => {
                         className="object-cover "
                     ></Image>
                 </div>
-                <div className="flex flex-col gap-[40px] rounded-[25px] border-[1px] border-main py-[55px] px-[77px] bg-gradient-to-t from-[#090808] to-gray-800 shadow-md shadow-main h-fit">
-                    <div className="text-[32px] font-rubik font-semibold hero-text text-center">
+                <div className="flex flex-col gap-[40px] rounded-[25px] border-[1px] border-main py-[55px] px-[77px] bg-gradient-to-t from-[#090808] to-gray-800 shadow-md shadow-main h-fit max-md:px-[20px] max-md:py-[20px] max-md:gap-[20px]">
+                    <div className="text-[32px] font-rubik font-semibold hero-text text-center max-md:text-[20px]">
                         Our Vision
                     </div>
-                    <div className="text-white text-[16px] font-medium text-center">
+                    <div className="text-white text-[16px] font-medium text-center max-md:text-[12px]">
                         Welcome to Versus, the epitome of passion, innovation,
                         and boundless ambition. Brace yourself for an
                         exhilarating journey into a future that will redefine
@@ -71,7 +71,7 @@ const Vision: FC = () => {
                     <div className="flex flex-col justify-center items-center">
 
                         <Button
-                            className="flex gap-[15px]  justify-center items-center build-button px-[34px] py-[15px] font-rubik font-semibold text-[16px] w-fit "
+                            className="flex gap-[15px]  justify-center items-center build-button px-[34px] py-[15px] font-rubik font-semibold text-[16px] w-fit max-md:text-[12px] max-md:px-[14px] max-md:py-[8px]"
                             onClick={handleToVision}
                         >
                             Read more <MobileDarkArrow />

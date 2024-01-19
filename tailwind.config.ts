@@ -15,6 +15,7 @@ const config: Config = {
       },
       screens: {
         sm: "480px", // Custom small breakpoint
+        xs: "640px",
         md: "768px", // Custom medium breakpoint
         mv: "881px", // Custom mobile design
         lg: "1080px", // Custom large breakpoint
