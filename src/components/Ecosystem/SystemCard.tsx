@@ -27,15 +27,15 @@ const SystemCard: FC<EcosystemProps> = ({ title, description, link }) => {
                     </Button>
                 </div>
             </div>
-            <div className="rounded-[50px] px-[72px] py-[80px] bg-[#111] border-2 border-[#1A1A1A] mv:hidden">
+            <div className="rounded-[50px] px-[72px] py-[80px] bg-[#111] border-2 border-[#1A1A1A] mv:hidden max-sm:px-[30px] max-sm:py-[30px] max-sm:rounded-[30px]">
                 <div className="flex flex-col gap-[35px]">
-                    <div className="text-[22px] font-bold feature-text">
+                    <div className="text-[22px] font-bold feature-text max-md:text-[18px]">
                         {title}
                     </div>
-                    <div className="text-[16px] font-medium text-white">
+                    <div className="text-[16px] font-medium text-white max-sm:text-[12px]">
                         {description}
                     </div>
-                    <Button className="flex items-center gap-[15px] text-[16px] font-semibold text-white bg-[#1A1A1A] px-[24px] py-[12px] w-fit absoulute bottom-0">
+                    <Button className="flex items-center gap-[15px] text-[16px] font-semibold text-white bg-[#1A1A1A] px-[24px] py-[12px] w-fit absoulute bottom-0 max-sm:text-[12px]">
                         Learn more
                         <WhiteArrow />
                     </Button>

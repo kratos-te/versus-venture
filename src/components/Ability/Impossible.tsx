@@ -6,8 +6,8 @@ import MakeCard from "./MakeCard";
 
 const Impossible: FC = () => {
     return (
-        <div className="flex flex-col gap-[82px] max-mv:gap-[50px]">
-            <div className="flex items-center justify-center text-[48px] fragment-text font-bold max-mv:text-[32px]">
+        <div className="flex flex-col gap-[82px] max-mv:gap-[50px] ">
+            <div className="flex items-center justify-center text-[48px] fragment-text font-bold max-mv:text-[32px] max-md:text-[24px]">
                 The impossible
             </div>
             <div className="grid w-full gap-[25px] max-mv:hidden" style={{

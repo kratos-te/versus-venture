@@ -32,8 +32,8 @@ const Header: FC = () => {
         }
     };
     return (
-        <header className="py-8 px-24 fixed left-0 top-0 w-full z-50 bg-gradient-to-b from-gray-900 to-black border-b-[1px] border-main">
-            <div className="flex items-center max-w-[1440px] justify-between mx-auto relative">
+        <header className="py-8 px-24 fixed left-0 top-0 w-full z-50 bg-gradient-to-b from-gray-900 to-black border-b-[1px] border-main max-md:px-[50px]">
+            <div className="flex items-center max-w-[1440px] justify-between mx-auto relative ">
                 <div className="inline-flex items-center gap-6">
                     <Link href={"/"}>
                         <VersusLogo size={64} />

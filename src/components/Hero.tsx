@@ -8,13 +8,13 @@ import Image from "next/image";
 const Hero: FC = () => {
     return (
         <div className="flex px-24 max-lg:px-12">
-            <div className="flex items-center max-w-[1440px] justify-end mx-auto pt-[200px] mb-[200px] max-mv:hidden">
+            <div className="flex items-center max-w-[1440px] justify-end mx-auto pt-[200px] mb-[200px] max-mv:hidden ">
                 <img
                     src={"./svg/hero.svg"}
                     className="absolute left-0 -top-16 pointer-events-none w-full  object-cover opacity-80 lg:opacity-100"
                     alt="vision"
                 />
-                <div className="flex flex-col gap-[50px] w-1/2 max-lg:w-full">
+                <div className="flex flex-col gap-[50px] w-1/2 ">
                     <div className="flex flex-col gap-[25px]">
                         <div className="text-[20px] font-medium text-white">
                             Introducing Quantum Blockchain
@@ -40,7 +40,7 @@ const Hero: FC = () => {
                         </Button>
                     </div>
                 </div>
-                <div className="flex w-1/2 max-lg:hidden">
+                <div className="flex w-1/2 ">
                     {/* <img src="./svg/golden.svg" alt="hero building" ></img> */}
                     <Image
                         src="/svg/golden.svg"
@@ -51,13 +51,13 @@ const Hero: FC = () => {
                     ></Image>
                 </div>
             </div>
-            <div className="flex items-center max-w-[881px] justify-center mx-auto pt-[200px] mb-[200px]  mv:hidden">
+            <div className="flex items-center w-full justify-center mx-auto pt-[200px] mb-[200px]  mv:hidden max-md:mb-[50px] ">
                 <img
                     src={"./svg/mobile_hero.svg"}
                     className="absolute left-0 -top-16 pointer-events-none w-full  object-cover opacity-80 lg:opacity-100"
                     alt="vision"
                 />
-                <div className="flex flex-col gap-[50px] w-1/2 justify-center items-center">
+                <div className="flex flex-col gap-[50px] w-1/2 justify-center items-center max-xs:w-full">
                     <div className="flex flex-col gap-[15px] justify-center items-center">
                         <div className="text-[16px] font-medium text-white">
                             Introducing Quantum Blockchain

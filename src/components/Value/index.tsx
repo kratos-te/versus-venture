@@ -17,8 +17,8 @@ const Value: FC = () => {
                 </div>
 
             </div>
-            <div className="flex flex-col gap-[140px] w-full mx-auto mv:hidden">
-                <div className="fragment-text text-center justify-center  font-bold text-[32px]">The Value We Create</div>
+            <div className="flex flex-col gap-[140px] w-full mx-auto mv:hidden max-md:gap-[60px]">
+                <div className="fragment-text text-center justify-center  font-bold text-[32px] max-md:text-[24px]">The Value We Create</div>
 
                 <div className="flex flex-col gap-[35px]" >
                     {VALUE_ICON.map((item, key) => (

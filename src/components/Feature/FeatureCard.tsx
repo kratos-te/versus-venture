@@ -21,7 +21,7 @@ const FeatureCard: FC<FeatureProps> = ({ title, icon, description }) => {
                     {description}
                 </div>
             </div>
-            <div className="flex flex-col gap-[25px] mv:hidden">
+            <div className="flex flex-col gap-[25px] mv:hidden  max-md:gap-[15px]">
                 <img src={icon} alt="feature icon" className="w-[45px] h-[45px]" />
                 <div className="text-[20px] font-rubik font-semibold text-white">
                     {title}

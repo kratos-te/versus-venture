@@ -19,10 +19,10 @@ const Footer: FC = () => {
                     ))}
                 </div>
                 <div className="flex justify-between py-24 border-t-[1px] border-[#808080] max-lg:flex max-lg:flex-col max-lg:gap-[28px] max-lg:items-center max-lg:border-t-[0px]">
-                    <div className="text-[32px] font-bold text-white uppercase max-lg:text-[28px]">
+                    <div className="text-[32px] font-bold text-white uppercase max-lg:text-[28px] max-md:text-[20px] max-md:text-center">
                         JOIN OUR GLOBAL COMMUNITY
                     </div>
-                    <div className="flex gap-[50px] max-mv:gap-[30px]">
+                    <div className="flex gap-[50px] max-mv:gap-[30px] max-md:gap-[15px]">
                         {SOCIAL_LINK.map((item, key) => (
                             <SocialLink
                                 key={key}
